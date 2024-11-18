@@ -1,6 +1,6 @@
-import 'package:construction_site_management/core/routes/routes.dart';
-import 'package:construction_site_management/core/themes/my_theme.dart';
-import 'package:construction_site_management/core/themes/theme_manager.dart';
+import 'package:construction_site_management/core/config/routes/routes.dart';
+import 'package:construction_site_management/core/config/themes/my_theme.dart';
+import 'package:construction_site_management/core/config/themes/theme_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Construction Site Management',
       theme: MyTheme.lightTheme,
       darkTheme: MyTheme.darkTheme,
