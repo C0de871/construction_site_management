@@ -39,6 +39,7 @@ dependencies:
   shimmer: ^3.0.0
   syncfusion_flutter_datagrid: ^27.2.2
   url_launcher: ^6.3.0
+  syncfusion_flutter_core: ^27.2.2
 
 dev_dependencies:
   flutter_lints: ^4.0.0
